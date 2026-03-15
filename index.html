@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Pribadi - Ibnu Aulia Zaki</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header dengan Navigasi -->
+    <header class="header-dark">
+        <div class="container">
+            <div class="header-content">
+                <div class="profile-logo">
+                    <i class="fas fa-code"></i>
+                    <span>Ibnu Aulia Zaki</span>
+                </div>
+                <nav class="nav-menu">
+                    <a href="#about">Tentang</a>
+                    <a href="#projects">Project</a>
+                    <a href="#skills">Keahlian</a>
+                    <a href="#contact">Hubungi</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <h1>Mahasiswa Sistem Informasi</h1>
+            <p>Penggemar Teknologi Informasi & Pengembangan Website</p>
+            <a href="#projects" class="btn-cta">Lihat Project Saya</a>
+        </div>
+    </section>
+
+    <!-- TENTANG SAYA (Dengan Foto Pribadi) -->
+    <section id="about" class="section-dark">
+        <div class="container">
+            <div class="section-title">
+                <h2><i class="fas fa-user-circle"></i> Tentang Saya</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="about-wrapper">
+                <div class="about-photo">
+                    <img src="img/foto-saya.jpg" alt="Foto Ibnu Aulia Zaki">
+                </div>
+                <div class="about-text">
+                    <p>Saya Ibnu Aulia Zaki, mahasiswa Sistem Informasi yang sangat suka dengan pengembangan website. Saya belajar HTML, CSS, JavaScript untuk membuat tampilan menarik, serta MySQL untuk mengelola data. Saya juga menggunakan NetBeans untuk desain dan pengembangan aplikasi.</p>
+                    <p>Saya bertekad untuk membuat website yang tidak hanya berfungsi baik, tapi juga mudah digunakan oleh semua orang.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECT (Dengan Foto Project) -->
+    <section id="projects" class="section-light">
+        <div class="container">
+            <div class="section-title">
+                <h2><i class="fas fa-laptop-code"></i> Project Saya</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-photo">
+                        <img src="img/foto-project-biodata.jpg" alt="Foto Project Website Biodata Pribadi">
+                    </div>
+                    <div class="card-header">
+                        <h3>Website Biodata Pribadi</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Membuat website biodata dengan HTML & CSS, menerapkan konsep layout terstruktur dan responsif untuk semua perangkat.</p>
+                        <div class="tech-stack">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Bisa tambah project lain dengan foto disini -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Keahlian -->
+    <section id="skills" class="section-dark">
+        <div class="container">
+            <div class="section-title">
+                <h2><i class="fas fa-tools"></i> Keahlian Saya</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <h4>HTML5</h4>
+                    <p>Responsive layout dan modern design.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-css3-alt"></i>
+                    <h4>CSS3</h4>
+                    <p>Flexbox & Grid untuk layout responsif.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-js"></i>
+                    <h4>JavaScript</h4>
+                    <p>Membuat website secara dinamis.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h4>MySQL</h4>
+                    <p>Query dasar dan manajemen tabel.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-github"></i>
+                    <h4>Git & GitHub</h4>
+                    <p>Mengelola versi project dan deploy.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h4>NetBeans</h4>
+                    <p>Desain dan pengembangan aplikasi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="contact" class="section-light">
+        <div class="container">
+            <div class="section-title">
+                <h2><i class="fas fa-envelope"></i> Hubungi Saya</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-links">
+                    <a href="[https://www.instagram.com/ibnuzaki268?igsh=MTV3cWtkczVjZDQ4bw==]" target="_blank">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Nama Kamu" required>
+                    <input type="email" placeholder="Email Kamu" required>
+                    <textarea placeholder="Pesan Kamu"></textarea>
+                    <button type="submit" class="btn-submit">Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-dark">
+        <div class="container">
+            <p>&copy; 2026 Ibnu Aulia Zaki</p>
+        </div>
+    </footer>
+
+    <!-- Tombol Kembali ke Atas -->
+    <button class="back-to-top"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+</html>
